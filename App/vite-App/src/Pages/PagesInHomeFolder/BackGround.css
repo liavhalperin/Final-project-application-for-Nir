@@ -1,0 +1,10 @@
+.loading-page {
+    background-image: url('src/Pages/imgs/homeimg.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,33 @@
+.loading-page {
+    background-image: url('src/Pages/imgs/homeimg.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .plane-animation {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-image: url('src/Pages/imgs/plane.png'); /* Adjust the path to your plane image */
+    background-size: contain;
+    animation: fly 5s linear infinite; /* Adjust animation duration */
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(110%);
+    }
+  }
+  
